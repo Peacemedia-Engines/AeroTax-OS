@@ -17,3 +17,6 @@ pip install -r requirements.txt
 
 # Execute deterministic validation rules
 python aerotax_os.py --test
+
+Security & Data Privacy
+​This repository acts strictly as an ingress gateway validation and calculation pipeline. It does not store flight manifests, trace client endpoints, or connect to private production infrastructure. It accepts anonymized industry-standard compliance payloads for execution processing.
